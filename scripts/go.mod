@@ -3,7 +3,7 @@ module _ // go.mod created for tooling dependencies
 go 1.18
 
 require (
-	github.com/armosec/kubescape v1.0.139
+	github.com/armosec/kubescape/v2 v2.3.7
 	github.com/brancz/gojsontoyaml v0.1.0
 	github.com/bwplotka/mdox v0.9.1-0.20220718065926-6a6aac7d5d30
 	github.com/google/go-jsonnet v0.20.0
