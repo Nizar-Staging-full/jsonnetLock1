@@ -1,6 +1,8 @@
 module _ // go.mod created for tooling dependencies
 
-go 1.18
+go 1.24
+
+toolchain go1.24.6
 
 require (
 	github.com/armosec/kubescape v1.0.139
@@ -8,8 +10,8 @@ require (
 	github.com/bwplotka/mdox v0.9.1-0.20220718065926-6a6aac7d5d30
 	github.com/google/go-jsonnet v0.20.0
 	github.com/jsonnet-bundler/jsonnet-bundler v0.5.1
-	github.com/yannh/kubeconform v0.6.1
-	sigs.k8s.io/yaml v1.3.0 // indirect
+	github.com/yannh/kubeconform v0.7.0
+	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
 require (
@@ -73,7 +75,7 @@ require (
 	github.com/golang/glog v1.0.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.1.0 // indirect
@@ -139,7 +141,7 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220622183110-fd043fe589d2 // indirect
 	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/text v0.25.0 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	gonum.org/v1/gonum v0.9.1 // indirect
 	google.golang.org/api v0.86.0 // indirect
